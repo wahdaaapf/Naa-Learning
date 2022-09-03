@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="judul">
+        <h1>Naa Learning</h1>
+      </div>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#langganan">Program</a></li>
+        <li><a href="#program">Langganan</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+
+      <button class="btn1" onclick="toggle();">Contact Me!</button>
+    </div>
+  </header>
+  <main>
+
+    <div class="content1"  id="home">
+      <div class="gambar">
+        <img src="assets/image/bg.png">
+      </div>
+      <div class="text">
+        <h2> HTML + CSS + JS + PHP Programming Course </h2>
+        <p>Mulai belajar terarah bersama Naa Learning Course</p>
+        <button>Mulai Sekarang!</button>
+      </div>
+    </div>
+
+    <div class="content2" id="program">
+      <div class="kotak">
+        <h3>HTML</h3>
+        <p>HyperText Markup Language adalah suatu bahasa menggunakan tag tertentu yang ditafsirkan browser.</p>
+        <button class="bnt">Mulai Sekarang</button>
+      </div>
+      <div class="kotak">
+        <h3>CSS</h3>
+        <p>Cascading Style Sheet merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur.</p>
+        <button class="bnt">Mulai Sekarang</button>
+      </div>
+      <div class="kotak">
+        <h3>JS</h3>
+        <p>JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis.  Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT.</p>
+        <button class="bnt">Mulai Sekarang</button>
+      </div>
+      <div class="kotak">
+        <h3>PHP</h3>
+        <p> Hypertext Preprocessor adalah bahasa skrip dengan fungsi umum yang terutama digunakan untuk pengembangan web.</p>
+        <button class="bnt">Mulai Sekarang</button>
+      </div>
+    </div>
+    
+    <div class="content3" id="langganan">
+      <div class="kotak1">
+        <h4>Langkah 1</h4>
+        <div class="kotak2">HTML</div>
+      </div>
+      <div class="kotak1">
+        <h4>----></h4>
+      </div>
+      <div class="kotak1">
+        <h4>Langkah 2</h4>
+        <div class="kotak2">CSS</div>
+      </div>
+      <div class="kotak1">
+        <h4>----></h4>
+      </div>
+      <div class="kotak1">
+        <h4>Langkah 3</h4>
+        <div class="kotak2">JS</div>
+      </div>
+      <div class="kotak1">
+        <h4>----></h4>
+      </div>
+      <div class="kotak1">
+        <h4>Langkah 4</h4>
+        <div class="kotak2">PHP</div>
+      </div>
+    </div>
+
+    <div class="content4" id="about">
+      <div class="bungkus">
+        <h4>About Naa Learning</h4>
+        <ul class="ya1">
+          <li class="yayaya">Whatsapp</li>
+          <li class="yayaya"><i class="fa-brands fa-whatsapp"></i><a class="ya" href="https://wa.me/6281515385477">whdaa</a></li>
+          <li class="yayaya">Facebook</li>
+          <li class="yayaya"><i class="fa-brands fa-facebook"></i><a class="ya" href="https://www.facebook.com/wahda.da.33">wahda.da.33</a></li>
+          <li class="yayaya">Instagram</li>
+          <li class="yayaya"><i class="fa-brands fa-instagram"></i><a class="ya" href="https://instagram.com/wahdaapf?igshid=YmMyMTA2M2Y=">wahdaapf</a></li>
+        </ul>
+      </div>
+      <div class="bungkus">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31596.
+              430547208627!2d112.49264598942999!3d-8.146820515665594!2m3!1f0!2f0!3f0!3m2!
+              1i1024!2i768!4f13.1!3m3!1m2!1s0x2e789f34913d7df3%3A0x4c4a9dc6cb6054f1!
+              2sSlorok%2C%20Kromengan%2C%20Malang%20Regency%2C%20East%20Java!5e0!3m2!
+              1sen!2sid!4v1656547478542!5m2!1sen!2sid" width="100%" height="450" style="border:0;"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="newsletter">
+      <h2>Contact Me!</h2>
+      <p>Kasih Nama Lalu Silahkan Tinggalkan Komentar</p>
+      <div class="inputBox">
+          <form action="https://formspree.io/f/xaykqnwa" method="POST">
+            <input type="text" required placeholder="Enter Name" name="Nama">
+            <input type="text" required placeholder="Enter Comment" name="Komentar">
+            <input type="submit" value="Submit">
+          </form>
+      </div>
+      <i class="fa-solid fa-xmark" class="close" onclick="toggle();" style="cursor: pointer;"> </i>
+  </div>
+
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2020 . Wahda💜. All Rights Reserved</p>
+  </footer>
+
+  <script src="assets/styles/script.js"></script>
+</body>
+</html>
